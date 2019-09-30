@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Damion|Permanent+Marker&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 172, 144);
+}
+
+#intro {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Damion', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+input{
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30%;
+    font-weight: bold;
+}
+button {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+    display:block;
+    margin: 10px auto;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+button:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+
+#gameOver {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.7rem;
+}
+
+#GameWrap {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+}
+
+#container {
+    display: grid;
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 7px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#container div {
+    border: solid 2px black;
+    border-radius: 10%;
+    height: 100%;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+}
+
+#div0 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#div1 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#div2 {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+#div3 {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#div4 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#div5 {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+#div6 {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+#div7 {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#div8 {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+#container img {
+    width: 92%;
+}
+
+#playerTwo, #playerOne{
+    background-color: lightblue;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+}
+#playerOne {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#playerTwo {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
