@@ -12,7 +12,7 @@ let playerOne;
 let playerTwo;
 let numberOfPlayers;
 let O = `<img src="letter o - temp.png" alt="O">`;
-let X = `<img src="/red-x.png" alt="X">`;
+let X = `<img src="red-x.png" alt="X">`;
 
 let gameGrid = [];
 let thereIsAWin = false;
